@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "mystic-centaur-457909-u7",
+    "private_key_id": "b171d637d1cad25c35c08b81d60a9ade187163da",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC1AbpQIxWEtB7h\nONeor27ePsCisX5k8GUYWP/JyWV+KXnHOxoYhKzrQt2j/oIpBjYuYrgx4Ojs92OK\nl9sJ/vGwQAexk9R0VESQ5SvmJqbl1VIGfrnI1lgrIofEbrYD9ZDfju/wR1INLF5f\nXCY+gaoVL53GdV5TpDULK6BZMHYaBdzHQSW+ySRblLpr/2vCmqpjsZrW7QyFGg1S\nC5BrodK1P5jPA1Cu0oit8kXfG16aGuwk0FBJD3RD1WfztkfxfphR13uIZzfk+xWn\nms6pq2sJexdeZqdPy3na4RWCvn8Stp9ZOji2jwniQMuf2trRB6UQvgBKUwXzHSdc\nbOPywmHhAgMBAAECggEAFH7+luZyIFW5DW2/VdWPq1DVxVZt5oYmHGyvgizw9ilC\nJeI2YUJcxkMLD+/Y00ZlyjjZfKRoG7Ujq2Too6gfvAJ0HJKNwyJrpTCeGPCVg371\nS9D7vpcu4quFTiPvLmGXJwlrd/zLeLxmb0vi9L8AAGgk6H0P0k7MxtgIzzCinu2M\nPSnF+ZUcWtO6ZrgVQ92xaDSdW7ko38H/DReZwK5Uh/2NuboGBQ6NgmnjCuM8SncP\nCriAFnLs6zUzqW7LwmsqbS7j15psX60TrCqh3Ow6yueNUaoz1dpBYMcvy5Y8kPXD\nvU9/tw/sFAZTy3xkOfHUS3lN8gWx/OYxFgw2BCNjxQKBgQDeHIQ9xJ8vvAlIgN1B\nbHiWdjDT2iHQ6yt+AD3LjRtobj97IB9uksAr7y2GDH2XbAD9eie6nJjEzZ9mBgAn\nKXuREYwFoJO7Qe1Ca+Yxg8qSBju7iHYUVqBhjgH9jIRcel+pcEFjNToZbqQezzw1\nJN7SWeTJdS2pwTJruY2DT5R/mwKBgQDQn7LUD3IFdbKFmcYGdi6XOcZEyQftKJ1c\nd+Zwg91ok3E0t6Bhx3dQiNYnhw8X8nqb6qprar84IhHBiSwZohFrNeZ85DHe4U4U\nmJg42M86zmL8ceGeqnGZJPB1zPfK7qOWjv8Tt8e0drPlxoF5DoH0TbdkmTP8g9/4\nchWAJ8VCMwKBgFc4y5WWCQ0twld+g2SVvCUZ9MK8/lqUf1fTsHCm0QSJhtRLIQzD\nBEQ8gJwLe6Zi+2CO/9sAc92VAeuGn7jBSY0GXv42uMzobsuOo67+GiaN3Bcg133V\nJtYodg+jhrbqN3bKZmMXG+Gw2TJgHzyfZgEk2/tg0LXA8JPtIe1W6vHRAoGAFQ0Y\nSWeplL10nyCOJ9bDCsVsqUIzx42Cm3MJ0K6tp8DA+pXQ3Cz5cCnumhx5vGveTV9X\nhPFHjE17xzClP4zn/w54TH/mPFw1ucRQD+RovMFYoaqIHq+KOO7OSMS++D4uSaHy\nQTYZM6+KpZPrOqDpIhK5f7Ap28Ae2H4Ch2T79ZsCgYArlqJbFFTTeMMauBdRZlq2\nXgj9jPLYcXcenRDt3uAaWRU0+gE5POuJkWrcEPpCl8+z1N7P6G3PjFpfICnjyELk\nSeJHimymaWV4eqfYW4S5OqmXVtWtpAWwmMvXjFDxjBI8B6dys9SzgSMMWkbfECN+\nhWyzT0lw2b94T1Yg90aTpQ==\n-----END PRIVATE KEY-----\n",
+    "client_email": "googlesheets-fashiondb@mystic-centaur-457909-u7.iam.gserviceaccount.com",
+    "client_id": "103063856899008378602",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/googlesheets-fashiondb%40mystic-centaur-457909-u7.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+}

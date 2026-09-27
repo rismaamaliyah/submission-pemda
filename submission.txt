@@ -1,0 +1,11 @@
+# Running script
+python3 main.py
+
+# Running unit test on tests folder
+python3 -m pytest tests
+
+# Running coverage test on tests folder
+coverage run -m pytest tests
+
+# Url Google Sheets:
+https://docs.google.com/spreadsheets/d/1qTFkSxQnFpCYy1OSOhoB9yNexEHSvVOKyry97_Az3z4/edit?usp=sharing
