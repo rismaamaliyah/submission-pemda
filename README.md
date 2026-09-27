@@ -1,4 +1,4 @@
-# Automated Fashion Market Data Collection and ETL Workflow
+# Fashion Product ETL Pipeline: Automated Web Scraping, Data Cleaning, and Multi-Repository Data Storage
 
 ## Overview
 This project focuses on building an end-to-end Extract, Transform, Load (ETL) pipeline for fashion product data sourced from an e-commerce website. The pipeline automated data collection through web scraping, performs data cleaning and transformation, and stores the processed data in multiple repositories for further analysis and reporting.
