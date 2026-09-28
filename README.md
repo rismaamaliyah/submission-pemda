@@ -1,6 +1,6 @@
 # Fashion Product ETL Pipeline: Automated Web Scraping, Data Cleaning, and Multi-Repository Data Storage
 
-## Overview
+### Project Overview
 This project focuses on building an end-to-end Extract, Transform, Load (ETL) pipeline for fashion product data sourced from an e-commerce website. The pipeline automated data collection through web scraping, performs data cleaning and transformation, and stores the processed data in multiple repositories for further analysis and reporting.
 
 The project follows software engineering best practices through modular code organization, automated testing, error handling, and separation of ETL stages into independent modules.
@@ -49,3 +49,58 @@ The scraper collected data from pages 1-50 (approximately 1k records), including
 | Size | Product size |
 | Gender | Target gender category |
 | Timestamp | Extraction timestamp |
+
+## Tools & Technologies
+### Programming Language
+- Python
+
+### Data Collection
+- Request
+- BeautifulSoup4
+
+### Data Processing
+- Pandas
+
+### Database
+- PostgreSQL
+- SQLAlchemy
+- Psycopg2
+
+### Cloud / Storage
+- Google Sheets API
+- CSV
+
+### Testing
+- Pytest
+- Coverage
+
+### Additional Tools
+- Google Cloud Service Account
+- Git & GitHub
+
+## Methodology / Process
+### 1. Extract
+Developed a web scraper using `Requests` and `BeautifulSoup` to collect product information from all available pages.
+
+Key activities:
+- Sent HTTP requests to website pages
+- Parsed HTML content
+- Extracted product attributes
+- Recorded extraction timestamps
+- Implemented exception handling for network and parsing errors
+
+
+### 2. Transform
+Performed data cleaning and standardization:
+
+#### Data Quality Checks
+Removed:
+- Unknown Product
+- Price Unavailable
+- Not Rated
+- Invalid rating
+
+#### Data Standardization
+Converted:
+
+**Price** from `$102.15` to `1634400 IDR` using `1 USD = Rp16,000`
