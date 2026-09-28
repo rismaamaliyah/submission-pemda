@@ -102,5 +102,63 @@ Removed:
 
 #### Data Standardization
 Converted:
+- **Price** from `$102.15` to `1634400 IDR` using `1 USD = Rp16,000`
+- **Rating** from `Rating: ⭐ 4.8 / 5` to `4.8`
+- **Colors** from `3 Colors` to `3`
+- **Size** from `Size: XL` to `XL`
+- **Gender** from `Gender: Women` to `Women`
 
-**Price** from `$102.15` to `1634400 IDR` using `1 USD = Rp16,000`
+#### Additional Cleaning
+- Removed null values
+- Removed duplicate records
+- Converted columns into appropriate data types
+
+### 3. load
+Stored processed data into multiple repositories:
+- **CSV**: Local flat-file storage
+- **PostgreSQL**: Relational database for structured storage and querying.
+- **Google Sheets**: Cloud-based spreadsheet for reporting and collaboration.
+
+
+## Key Findings / Insights
+Based on the ETL process:
+
+### Data Quality Issues were Significant
+A noticeable portion of scraped records contained:
+- Unknown product names
+- Missing prices
+- Missing ratings
+
+These records required removal before analysis.
+
+### Multi-Step Cleaning was Necessary
+raw web data included multiple formatting inconsistencies that made direct analysis impossible without transformation.
+
+Examples:
+- Currency stored as text strings
+- Ratings embedded within descriptive text
+- Product attributes mixed with labels
+
+### Automated Data Collection Improved Efficieny
+The scraper successfully processed approximately 1k records across 50 website pages automatically, eliminating the need for manual collection.
+
+### Multi-Repository Storage Increased Accessibility
+Data became accessible for:
+- Analytical querying through PostgreSQL
+- Spreadsheet-based reporting through Google Sheets
+- Offline storage through CSV exports
+
+## Skills Demonstrated
+- Web Scraping
+- ETL Pipeline Development
+- Data Cleaning & Preprocessing
+- Data Validation
+- Python Programming
+- PostgreSQL
+- SQL
+- Google Sheets API
+- API Integration
+- Unit Testing (Pytest)
+- Error Handling
+- Data Engineering Fundamentals
+- Data Quality Management
