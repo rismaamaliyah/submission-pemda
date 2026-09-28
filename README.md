@@ -37,3 +37,15 @@ This project aims to:
 ### Source Website
 **Fashion Studio Scraping Website**
 https://fashion-studio.dicoding.dev
+
+### Data Collected
+The scraper collected data from pages 1-50 (approximately 1k records), including:
+| Attribute | Description |
+| --------- | ----------- |
+| Title | Product name |
+| Price | Product price (USD) |
+| Rating | Product rating |
+| Colors | Available color variations |
+| Size | Product size |
+| Gender | Target gender category |
+| Timestamp | Extraction timestamp |
