@@ -16,3 +16,24 @@ Several data quality issues were identified:
 - Duplicate records and potential null values
 
 Without a structured ETL process, collecting and preparing data for analysis would be time-consuming and error-prone.
+
+## Objectives
+This project aims to:
+- Extract fashion product data from multiple web pages automatically.
+- Collect product attributes including:
+  - Title
+  - Price
+  - Rating
+  - Colors
+  - Size
+  - Gender
+- Record extraction timestamps.
+- Improved data quality by removing invalid and incomplete records.
+- Convert product prices from USD to Indonesian Rupiah (IDR).
+- Store clean data in multiple repositories for future access and analysis.
+- Implement automated testing to ensure pipeline reliability.
+
+## Data Source
+### Source Website
+**Fashion Studio Scraping Website**
+https://fashion-studio.dicoding.dev
